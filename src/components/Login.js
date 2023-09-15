@@ -32,7 +32,7 @@ function Login() {
         const user = await axios.post(`${config.api}/api/auth/login`, values);
         localStorage.setItem("myprofile", user.data.token);
         if (user.data.message === "Success") {
-          navigate("/profile");
+          navigate("/EditProfile");
           alert("Successfully Logged in");
         }else {
           alert("Incorrect email/password" );
@@ -48,14 +48,14 @@ function Login() {
       <div className="card o-hidden border-0 shadow-lg my-5">
         <div className="card-body p-0">
           <div className="row">
-            <div className="col-lg-5 d-none d-lg-block">
+            <div className="col-lg-4 d-none d-lg-block">
               <img
                 className="bg-login-image"
                 src="./image/login.jpg"
                 alt="login"
               />
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-6">
               <div className="p-5">
                 <div className="text-center">
                   <h1 className="h4 text-gray-900 mb-4">Login in your account!</h1>

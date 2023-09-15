@@ -55,7 +55,7 @@ function Signup() {
   });
   return (
     <div className="container">
-      <div className="card o-hidden border-0 shadow-lg my-5">
+      <div className="card o-hidden border-0 shadow-lg my-4">
         <div className="card-body p-0">
           <div className="row">
             <div className="col-lg-5 d-none d-lg-block">
@@ -65,13 +65,13 @@ function Signup() {
                 alt="login"
               />
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-6">
               <div className="p-4">
                 <div className="text-center">
                   <h1 className="h4 text-gray-900 mb-4">Create an Account!</h1>
                 </div>
-                <form className="user" onSubmit={formik.handleSubmit}>
-                  <div className="form-group row mb-2">
+                <form className="user mt-3" onSubmit={formik.handleSubmit}>
+                  <div className="form-group row mb-2 mt-3">
                     <div className="col-sm-6 mb-3 mb-sm-0">
                       <input
                         name="name"
@@ -183,9 +183,9 @@ function Signup() {
 
                   <button
                     type={"submit"}
-                    className="btn btn-primary btn-user btn-block"
+                    className="btn btn-primary btn-user btn-block mt-4"
                   >
-                    Register Account
+                    Signup Account
                   </button>
                 </form>
               </div>

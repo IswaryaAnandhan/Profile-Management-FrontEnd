@@ -39,9 +39,10 @@
 
 
 .error-box{
-  border: 1px solid red !important;
+  border: 1.5px solid red !important;
 }
 
 .success-box{
-  border: 1px solid green !important;
+  border: 1.5px solid green !important;
 }
+
