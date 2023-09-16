@@ -65,6 +65,7 @@ function Profile() {
                     value={formData.age}
                     onChange={handleChange}
                     className="form-control"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -76,6 +77,7 @@ function Profile() {
                     value={formData.gender}
                     onChange={handleChange}
                     className="form-control"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -87,6 +89,7 @@ function Profile() {
                     value={formData.dob}
                     onChange={handleChange}
                     className="form-control"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -98,6 +101,7 @@ function Profile() {
                     value={formData.mobile}
                     onChange={handleChange}
                     className="form-control"
+                    required
                   />
                 </div>
                 <button type="submit" className="btn btn-primary mt-2 ">
